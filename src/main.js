@@ -1,8 +1,7 @@
 import TaskCollection from "./TaskCollection";
-import Task from "./Task";
 
 new TaskCollection([
-  new Task,
-  new Task,
-  new Task
+  "Have lunch",
+  "Sleep",
+  "Take the dog for a walk"
 ]).log();

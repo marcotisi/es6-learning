@@ -4,7 +4,7 @@ class TaskCollection {
   }
 
   log() {
-    this.tasks.forEach(task => console.log(task));
+    console.dir(this.tasks);
   }
 }
 
